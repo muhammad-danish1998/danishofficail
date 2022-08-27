@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -24,3 +28,102 @@ a {
     background: black;
   }
 }
+
+.mid_container{
+  width: 100%;
+  display: flex;
+
+  
+ 
+}
+
+.text_anim_container{
+  display: flex;
+  align-items:center;
+  --font-size : 30px;
+  --line-height : 90px;
+
+   /* to change animation duration, change this. */
+  --line-anim-dur:5s;
+
+  /* this is changed dynamically by javascript depending on the number of "dynamic text number" */
+  --total-dynamic-text: 4;
+  --total-anim-dur: 12s;    
+}
+
+.text_anim_container .static_text{
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+
+}
+.text_anim_container .dynamic_text{
+  font-size: var(--font-size);
+  height: var(--line-height);
+  line-height: var(--line-height);
+  overflow: hidden;
+  padding-left: 10px;
+  
+}
+
+.dynamic_text li{
+  list-style: none;
+  position: relative;
+  top: 0;
+  animation: slide var(--total-anim-dur) steps(var(--total-dynamic-text)) infinite;    
+}
+.dynamic_text li span{
+  position: relative;    
+  display: inline-block;    
+  
+}
+.dynamic_text li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border-left: 2px solid black;
+  animation: typing var(--line-anim-dur) steps(10) infinite ;
+
+}
+
+@keyframes slide{
+  100%{
+      top: calc(var(--line-height)* var(--total-dynamic-text)*-1 );
+  }
+}
+@keyframes typing{
+  40%, 60%{
+      left: calc(100% + 80px);
+  }
+  100%{
+      left: 0;
+  }
+}
+
+.anya{   
+  width: 600px;
+  padding-left: 30px;
+  border-radius : 20%
+}
+@media only screen and (max-width: 600px) {
+  .dynamic_text li span::after{
+    
+  }
+  .text_anim_container .dynamic_text{
+    font-size: 20px;
+    height: var(--line-height);
+    line-height: var(--line-height);
+    overflow: hidden;
+    padding-left: 10px;
+  }
+  .text_anim_container .static_text{
+    font-size: 20px;
+  }
+}
+.btnColor{
+background-color: #673ab7;
+color: white;
+}
+
