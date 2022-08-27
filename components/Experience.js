@@ -6,7 +6,7 @@ const people = [
         name: `I worked on the Official Letscodify Website for Trinidad and Tobago. The project
          included complete redesign of their website, and adopting the standard Starbucks style 
          for the country's website`,
-        email: 'leslie.alexander@example.com',
+        email: 'leslie.alexander@example1.com',
         role: 'Co-Founder / CEO',
         imageUrl:
             './images/letscodify.webp',
@@ -14,7 +14,7 @@ const people = [
     {
         heading: "React Developer",
         name: `I worked with FIVERR to design and developed their online project management system. The system could be used to track the project progress, assign tasks, manage employees, generate reports among other works.`,
-        email: 'leslie.alexander@example.com',
+        email: 'leslie.alexander@example2.com',
         role: 'Co-Founder / CEO',
         imageUrl:
         './images/fiverr.png',

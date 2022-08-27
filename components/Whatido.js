@@ -3,56 +3,56 @@ import { CheckIcon } from '@heroicons/react/outline'
 const people = [
     {
       name: 'Prepare variety of different designs, layouts and websites ',
-      email: 'leslie.alexander@example.com',
+      email: 'leslie.alexander@example1.com',
       role: 'Co-Founder / CEO',
       imageUrl:
         'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
     {
         name: `Actively listen to customers' requests, confirming full understanding before addressing concerns`,
-        email: 'leslie.alexander@example.com',
+        email: 'leslie.alexander@example2.com',
         role: 'Co-Founder / CEO',
         imageUrl:
           'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
       {
         name: `Use Seo Optimization and other software tools to create to grow their business`,
-        email: 'leslie.alexander@example.com',
+        email: 'leslie.alexander@example3.com',
         role: 'Co-Founder / CEO',
         imageUrl:
           'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
       {
         name: `Identify issues, analyzed information and provided solutions to problems`,
-        email: 'leslie.alexander@example.com',
+        email: 'leslie.alexander@example4.com',
         role: 'Co-Founder / CEO',
         imageUrl:
           'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
       {
         name: `Convert graphic designs to usable web images using React JS`,
-        email: 'leslie.alexander@example.com',
+        email: 'leslie.alexander@example5.com',
         role: 'Co-Founder / CEO',
         imageUrl:
           'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
       {
         name: `Plann website development, converting mockups into usable web presence with HTML, JavaScript, AJAX and JSON coding`,
-        email: 'leslie.alexander@example.com',
+        email: 'leslie.alexander@example6.com',
         role: 'Co-Founder / CEO',
         imageUrl:
           'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
       {
         name: `Provide front-end website development using WordPress, Hubspot and other editing software`,
-        email: 'leslie.alexander@example.com',
+        email: 'leslie.alexander@example7.com',
         role: 'Co-Founder / CEO',
         imageUrl:
           'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
       {
         name: `Establish presentation consistency across Chrome, Safari, Firefox and other common browser interfaces`,
-        email: 'leslie.alexander@example.com',
+        email: 'leslie.alexander@example8.com',
         role: 'Co-Founder / CEO',
         imageUrl:
           'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
