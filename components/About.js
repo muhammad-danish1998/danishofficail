@@ -15,7 +15,7 @@ export default function About() {
                 <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
                   <img
                     className="object-cover object-center rounded-3xl shadow-2xl"
-                    src="https://miro.medium.com/max/1272/1*ZSVmWGcc1weENb0ShawWxw.gif"
+                    src="./images/img2.webp"
                     alt=""
                   />
                 </div>

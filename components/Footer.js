@@ -4,20 +4,20 @@ const people = [
         name: 'Phone',
         role: '+92-3424049132',
         imageUrl:
-          './images/phone.png',
+          './images/phone.webp',
       },
     {
       name: 'Linkdedn',
       role: 'muhammad-danish',
       imageUrl:
-      './images/lind.png',
+      './images/lind.webp',
     },
     
     {
         name: 'Email',
         role: 'iamdanish1998@gmail.com',
         imageUrl:
-        './images/email1.png',
+        './images/email1.webp',
       },
    
      

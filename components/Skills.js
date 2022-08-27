@@ -5,70 +5,70 @@ const people = [
       role: 'Co-Founder / CTO',
       abbrs: "reactjs",
       imageUrl:
-        './images/react1.png',
+        './images/react1.webp',
     },
     {
         name: 'NextJs',
         role: 'Co-Founder / CTO',
         abbrs: "nextjs",
         imageUrl:
-          './images/nextjs.png',
+          './images/nextjs.webp',
       },
       {
         name: 'JavaScript',
         role: 'Co-Founder / CTO',
         abbrs: "javascript",
         imageUrl:
-          './images/js.png',
+          './images/js.webp',
       },
       {
         name: 'Html',
         role: 'Co-Founder / CTO',
         abbrs: "Html",
         imageUrl:
-          './images/html.png',
+          './images/html.webp',
       },
       {
         name: 'Css',
         role: 'Co-Founder / CTO',
         abbrs: "css",
         imageUrl:
-          './images/css.jpg',
+          './images/css.webp',
       },
       {
         name: 'Bootstrap',
         role: 'Co-Founder / CTO',
         abbrs: "bootstrap",
         imageUrl:
-          './images/bootstrap.jpg',
+          './images/bootstrap.webp',
       },
       {
         name: 'Tailwind Css',
         role: 'Co-Founder / CTO',
         abbrs: "tailwind css",
         imageUrl:
-          './images/tailwind.png',
+          './images/tailwind.webp',
       },
       {
         name: 'Node.Js',
         role: 'Co-Founder / CTO',
         abbrs: "node.js",
         imageUrl:
-          './images/node.png',
+          './images/node.webp',
       },
       {
         name: 'MongoDb',
         role: 'Co-Founder / CTO',
         abbrs: "mongodb",
         imageUrl:
-          './images/mongodb.png',
+          './images/mongodb.webp',
       },
       {
         name: 'Strapi',
         role: 'Co-Founder / CTO',
         abbrs: "strapi",
         imageUrl:
-          './images/strapi.jpg',
+          './images/strapi.webp',
       },
 
     // More people...

@@ -228,7 +228,7 @@ export default function Header() {
                
                   <img
                     className="w-full h-full "
-                    src="https://cdn.dribbble.com/users/1187278/screenshots/16762086/media/10ba6161c70f3edd67f34e229b62b852.gif"
+                    src="./images/img1.webp"
                     alt=""
                   />
 

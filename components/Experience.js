@@ -17,7 +17,7 @@ const people = [
         email: 'leslie.alexander@example2.com',
         role: 'Co-Founder / CEO',
         imageUrl:
-        './images/fiverr.png',
+        './images/fiverr.webp',
     },
  
  
