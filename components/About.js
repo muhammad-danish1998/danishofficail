@@ -1,9 +1,9 @@
-
+import Image from 'next/image'
 export default function About() {
   return (
     <>
-      <h1 className="lg:text-6xl text-4xl font-semibold my-10 text-center">About Me 👩</h1>
-      <div className="relative py-16 bg-white">
+      <h1 className="lg:text-5xl text-4xl font-semibold my-10 text-center">About Me 👩</h1>
+      <div className="relative py-16 bg-white   px-10">
 
 
         <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block" aria-hidden="true" />
@@ -13,11 +13,13 @@ export default function About() {
               <div className="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden" aria-hidden="true" />
               <div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
                 <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
-                  <img
-                    className="object-cover object-center rounded-3xl shadow-2xl"
-                    src="./images/img2.webp"
-                    alt=""
-                  />
+                 
+                  <Image
+                      className='object-cover object-center  shadow-2xl'
+                      src="/images/img2.webp"
+                      alt="Picture of the author"
+                      layout="fill"
+                    />
                 </div>
               </div>
             </div>

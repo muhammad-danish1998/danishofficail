@@ -2,9 +2,11 @@
 import { Fragment, useEffect } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import Image from 'next/image'
 import $ from "jquery"
+import Link from 'next/link'
 const navigation = [
-  { name: 'Home', href: '#' },
+  { name: 'Home', href: '#first-section' },
   { name: 'About', href: '#' },
   { name: 'What I do ?', href: '#' },
   { name: 'Skills', href: '#' },
@@ -26,7 +28,7 @@ export default function Header() {
     $(".text_anim_container").css('--total-anim-dur', total_anim_dur);
   }, [])
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="relative bg-white overflow-hidden ">
       <div className="hidden lg:block lg:absolute lg:inset-0" aria-hidden="true">
         {/* <svg
           className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"
@@ -62,10 +64,13 @@ export default function Header() {
               <div className="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <span className="sr-only">Workflow</span>
-                  <img
-                    className="h-8 w-auto sm:h-10"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
-                    alt=""
+
+                  <Image
+                    className='h-8 w-auto sm:h-10'
+                    src="/images/react1.webp"
+                    alt="Picture of the author"
+                    width={40}
+                    height={40}
                   />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
@@ -77,9 +82,11 @@ export default function Header() {
               </div>
               <div className="hidden md:block md:ml-10 md:space-x-10">
                 {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                  <Link href={item.href}>
+                  <a key={item.name}  className="font-medium text-gray-500 hover:text-gray-900">
                     {item.name}
                   </a>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -87,9 +94,9 @@ export default function Header() {
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
                 <a
                   href="#"
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"
+                  className="inline-flex items-center px-4 py-1 border border-transparent text-base font-medium rounded-md bg-indigo-700 text-white hover:bg-indigo-600"
                 >
-                  Log in
+                 Resume
                 </a>
               </span>
             </div>
@@ -111,10 +118,13 @@ export default function Header() {
               <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
-                      alt=""
+
+                    <Image
+                      className='h-8 w-auto'
+                      src="/images/react1.webp"
+                      alt="Picture of the author"
+                      width={16}
+                      height={16}
                     />
                   </div>
                   <div className="-mr-2">
@@ -146,7 +156,7 @@ export default function Header() {
           </Transition>
         </Popover>
 
-        <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
+        <main className="mt-16 mx-auto max-w-7xl px-10   sm:mt-24 sm:px-6 lg:mt-32">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h5>
@@ -160,9 +170,10 @@ export default function Header() {
                         and I am
                       </div>
                       <ul className="dynamic_text">
-                        <li><span>Dedicated Programmer</span></li>
-                        <li><span>React Developer</span></li>
-                        <li><span>Open Source Contributor</span></li>
+                        <li><span>Frontend Developer</span></li>
+                        <li><span>ReactJs Developer</span></li>
+                        <li><span>Mern Stack Developer</span></li>
+                  
 
                       </ul>
                     </div>
@@ -176,20 +187,25 @@ export default function Header() {
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <div className="mt-5  mx-auto sm:flex  md:mt-8">
                   <div className="rounded-md ">
-                    <a
-                      href="#"
+
+                    <Link href={'https://www.linkedin.com/in/muhammad-danish-0619a51a3/'}>
+                    <a target={"_blank"}
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white btnColor hover:bg-indigo-700 md:py-2 md:text-lg md:px-10"
                     >
-                      Get started
+                    View on Linkedin
                     </a>
+                    </Link>
                   </div>
                   <div className="mt-3 rounded-md  sm:mt-0 sm:ml-3">
+                    <Link href={"https://github.com/muhammad-danish1998"}>
                     <a
-                      href="#"
+                       target="_blank"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md  btnColor  hover:bg-indigo-700 md:py-2 md:text-lg md:px-10"
                     >
-                      Live demo
+                     
+                     View on Github
                     </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -225,11 +241,14 @@ export default function Header() {
                   type="button"
                   className="relative block w-full   rounded-lg overflow-hidden focus:outline-none"
                 >
-               
-                  <img
-                    className="w-full h-full "
-                    src="./images/img1.webp"
-                    alt=""
+
+
+                  <Image
+
+                    src="/images/img1.webp"
+                    alt="Picture of the author"
+                    width={500}
+                    height={500}
                   />
 
                 </button>

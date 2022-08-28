@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckIcon } from '@heroicons/react/outline'
+import Image from 'next/image'
 const people = [
     {
         heading: "Frontend Developer",
@@ -9,7 +10,7 @@ const people = [
         email: 'leslie.alexander@example1.com',
         role: 'Co-Founder / CEO',
         imageUrl:
-            './images/letscodify.webp',
+            '/images/letscodify.webp',
     },
     {
         heading: "React Developer",
@@ -17,30 +18,36 @@ const people = [
         email: 'leslie.alexander@example2.com',
         role: 'Co-Founder / CEO',
         imageUrl:
-        './images/fiverr.webp',
+            '/images/fiverr.webp',
     },
- 
- 
- 
- 
- 
+
+
+
+
+
 
     // More people...
 ]
 
 export default function Experience() {
     return (<>
-          <h1 className='lg:text-6xl text-4xl font-semibold my-10 text-center'>Experience 💼</h1>   
-        <div className="  p-10 grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-7xl mx-auto">
-       
+        <h1 className='lg:text-6xl text-4xl font-semibold my-10 text-center'>Experience 💼</h1>
+        <div id = "first-seciton" className="  p-10 grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-7xl mx-auto">
+
             {people.map((person) => (
                 <div
                     key={person.email}
                     className="relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400  hover:bg-indigo-600 text-gray-500 hover:text-white"
                 >
                     <div className="flex-shrink-0">
-                        <img className="h-14 w-14 lg:w-24 lg:h-24 rounded-full" src={person.imageUrl} alt="" />
 
+                        <Image
+                            className='h-14 w-14 lg:w-24 lg:h-24 rounded-full'
+                            src={person.imageUrl}
+                            alt="Picture of the author"
+                            width={90}
+                            height={90}
+                        />
                     </div>
                     <div className="flex-1 min-w-0">
                         <a href="#" className="focus:outline-none">
@@ -61,5 +68,5 @@ export default function Experience() {
                 </div>
             ))}
         </div>
-  </>  )
+    </>)
 }
