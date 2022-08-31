@@ -3,7 +3,7 @@ export default function About() {
   return (
     <>
       <h1 className="lg:text-5xl text-4xl font-semibold my-10 text-center">About Me 👩</h1>
-      <div className="relative py-16 bg-white   px-10">
+      <div className="relative py-8 lg:py-16 bg-white   px-6">
 
 
         <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block" aria-hidden="true" />
@@ -76,15 +76,15 @@ export default function About() {
                 Join our team
               </h2> */}
                 <p className="text-lg text-white">
-                  I am a Computer Scientist who just graduated from the premier IT university COMSATS University Islamabad in Computer Science Majors. I am a highly skilled professional developer who
+                  I am a Computer Scientist who just graduated from the premier IT university SIR SYED University of engineering and technology  in Computer Science Majors. I am a highly skilled professional developer who
                   loves to take on the challenges and then solve them.
                 </p>
                 <p className="text-lg text-white">
                   While doing my graduation, I had the pleasure of working for
-                  some amazing companies like Starbucks. I worked on a portion
+                  some amazing companies like Letscodify. I worked on a portion
                   of their website for their Trinidad and Tobago website. I
-                  also worked with Nastech Group of companies as a freelance
-                  web developer. Nastech is a giant in IT and cabling sector in Middle Eastern countries. I have also worked with TechnoSpark on React and NextJS technologies.
+                  also worked with The Fiverr companies as a freelance
+                  web developer. 
                 </p>
                 <a
                   className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto"

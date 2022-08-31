@@ -22,6 +22,7 @@ export default function Home() {
         
       </Head>
       {/* <TopNavbar /> */}
+      <div >
       <Header />
       <About />
       <Whatido />
@@ -32,7 +33,7 @@ export default function Home() {
       <Testimonial />
       <Footer />
 
-
+      </div>
     </div>
   )
 }

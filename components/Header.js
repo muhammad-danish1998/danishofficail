@@ -28,7 +28,7 @@ export default function Header() {
     $(".text_anim_container").css('--total-anim-dur', total_anim_dur);
   }, [])
   return (
-    <div className="relative bg-white overflow-hidden ">
+    <div className="relative bg-white overflow-hidden border-4 ">
       <div className="hidden lg:block lg:absolute lg:inset-0" aria-hidden="true">
         {/* <svg
           className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"
@@ -156,12 +156,12 @@ export default function Header() {
           </Transition>
         </Popover>
 
-        <main className="mt-16 mx-auto max-w-7xl px-10   sm:mt-24 sm:px-6 lg:mt-32">
+        <main className="mt-16 mx-auto max-w-7xl px-6   sm:mt-24 sm:px-6 lg:mt-32">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h5>
 
-                <span className="mt-1 block text-4xl tracking-tight font-bold sm:text-5xl sm:tracking-tight xl:text-6xl xl:tracking-tight">
+                <span className="mt-1 block text-3xl lg:text-4xl  tracking-tight font-bold sm:text-5xl sm:tracking-tight xl:text-6xl xl:tracking-tight">
                   <span className="block text-gray-900">Hi, I'm  Danish 👋 </span>
                   {/* <span className="block text-indigo-600">online business</span> */}
                   <div className="mid_container text-gray-500 font-normal  ">

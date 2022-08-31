@@ -32,7 +32,7 @@ const people = [
 export default function Experience() {
     return (<>
         <h1 className='lg:text-6xl text-4xl font-semibold my-10 text-center'>Experience 💼</h1>
-        <div id = "first-seciton" className="  p-10 grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-7xl mx-auto">
+        <div id = "first-seciton" className="  p-6 grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-7xl mx-auto">
 
             {people.map((person) => (
                 <div
