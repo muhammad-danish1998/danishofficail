@@ -3,7 +3,7 @@ export default function About() {
   return (
     <>
       <h1 className="lg:text-5xl text-4xl font-semibold my-10 text-center">About Me 👩</h1>
-      <div className="relative py-8 lg:py-16 bg-white   px-6">
+      <div className="relative py-8 lg:py-16 bg-white   px-6" id = "about">
 
 
         <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block" aria-hidden="true" />

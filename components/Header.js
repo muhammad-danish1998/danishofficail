@@ -6,13 +6,13 @@ import Image from 'next/image'
 import $ from "jquery"
 import Link from 'next/link'
 const navigation = [
-  { name: 'Home', href: '#first-section' },
-  { name: 'About', href: '#' },
-  { name: 'What I do ?', href: '#' },
-  { name: 'Skills', href: '#' },
-  { name: 'Experience', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'contact', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '#about' },
+  { name: 'What I do ?', href: '#whatido' },
+  { name: 'Skills', href: '#skills' },
+  { name: 'Experience', href: '#experience' },
+  { name: 'Projects', href: '#projects' },
+  { name: 'contact', href: '#contact' },
 
 ]
 
@@ -28,7 +28,7 @@ export default function Header() {
     $(".text_anim_container").css('--total-anim-dur', total_anim_dur);
   }, [])
   return (
-    <div className="relative bg-white overflow-hidden border-4 ">
+    <div className="relative bg-white overflow-hidden  ">
       <div className="hidden lg:block lg:absolute lg:inset-0" aria-hidden="true">
         {/* <svg
           className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"

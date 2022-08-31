@@ -64,7 +64,7 @@ const people = [
     return (
       <>
       <h1 className='lg:text-6xl text-4xl font-semibold my-10 text-center borderbottom '>What I Do? 👩‍💻</h1>
-      <div className="  p-6 grid grid-cols-1 gap-3 sm:grid-cols-3 max-w-7xl mx-auto">
+      <div className="  p-6 grid grid-cols-1 gap-3 sm:grid-cols-3 max-w-7xl mx-auto" id = "whatido">
         {people.map((person) => (
           <div
             key={person.email}
