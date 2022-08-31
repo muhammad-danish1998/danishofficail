@@ -93,7 +93,8 @@ export default function Header() {
             <div className="hidden md:block text-right">
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1WoH6hm9_Tf3fcBZkr3tf4pmr7GL3_lsf/view?ths=true"
+                  target={'_blank'}
                   className="inline-flex items-center px-4 py-1 border border-transparent text-base font-medium rounded-md bg-indigo-700 text-white hover:bg-indigo-600"
                 >
                  Resume
