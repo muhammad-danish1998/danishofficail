@@ -18,7 +18,7 @@ export default function Home() {
       <Head>
         <title>Danishtanoli</title>
         <meta name="description" content="A passionate Full Stack Software Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks" />
-        <link rel="icon" href="/favicon.PNG" />
+        <link rel="icon" href="/favicon.png" />
         
       </Head>
       {/* <TopNavbar /> */}
