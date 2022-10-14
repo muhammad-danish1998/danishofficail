@@ -18,7 +18,7 @@ const people = [
     imageUrl:
       '/images/banner-3.webp',
     imgUel2: `/images/nextjs.webp`,
-    imgUrl3: `/images/strapi.webp`,
+    imgUrl3: `/images/strap.webp`,
 
     twitterUrl: '#',
     linkedinUrl: '#',
@@ -29,7 +29,7 @@ const people = [
     imageUrl:
       '/images/banner-4.webp',
     imgUel2: `/images/nextjs.webp`,
-    imgUrl3: `/images/strapi.webp`,
+    imgUrl3: `/images/strap.webp`,
     twitterUrl: '#',
     linkedinUrl: '#',
   },
