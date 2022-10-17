@@ -33,7 +33,7 @@ const people = [
 
 export default function Experience() {
     return (<>
-    <Head>
+     <Head>
         <title>Danishtanoli</title>
         <link rel="icon" href="/favicon.png" />
         <meta charset="UTF-8" />
@@ -44,48 +44,49 @@ export default function Experience() {
         <meta
           name="keywords"
           content="
-        web developer
-        front end developer
-        backend developer
-        web design company
-        website developer
-        web dev
-        ui developer
-        front end web developer
-        front end back end
-        front end and back end
-        freelance web designer
-        junior web developer
-        web design near me
-        stack developer
-        website developer near me
-        website designing company
-        web developer near me
-        best website design 2021
-        google web developer
-        web programmer
-        web application developer
-        freelance website developer
-        html css and javascript for web developers
-        back end web developer
-        front end coding
-        web app developer
-        react js tutor
-        reactjs tutor
-        nextjs developr
-        nextjs tutor
-        mern stack developer
-        mern full form
-        mern developer
-        mern stack projects
-        mern stack course
-        mern stack development
-        full stack mern
-        best mern stack course
-        mern full stack
-        mern full stack developer
-        full stack mern developer
-        mern stack developer meaning
+        web developer,
+        front end developer,
+        backend developer,
+        web design company,
+        website developer,
+        web dev,
+        ui developer,
+        front end web developer,
+        front end back end,
+        front end and back end,
+        freelance web designer,
+        junior web developer,
+        web design near me,
+        stack developer,
+        website developer near me,
+        website designing company,
+        web developer near me,
+        best website design 2021,
+        google web developer,
+        web programmer,
+        web application developer,
+        freelance website developer,
+        html css and javascript for web developers,
+        back end web developer,
+        front end coding,
+        web app developer,
+        react js tutor,
+        reactjs tutor,
+        nextjs developr,
+        nextjs tutor,
+        mern stack developer,
+        mern full form,
+        mern developer,
+        mern stack projects,
+        mern stack course,
+        mern stack development,
+        full stack mern,
+        best mern stack course,
+        mern full stack,
+        mern full stack developer,
+        full stack mern developer,
+        mern stack developer meaning,
+        danishtanoli
         "
         />
         <meta name="author" content="Muhammad Danish" />
