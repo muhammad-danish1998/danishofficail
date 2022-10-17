@@ -1,4 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
+import Head from "next/head";
+
 const people = [
   {
     name: 'Phone',
@@ -29,6 +31,65 @@ const people = [
 
 export default function Footer() {
   return (
+    <>
+    <Head>
+        <title>Danishtanoli</title>
+        <link rel="icon" href="/favicon.png" />
+        <meta charset="UTF-8" />
+        <meta
+          name="description"
+          content="A passionate Full Stack Software Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+        />
+        <meta
+          name="keywords"
+          content="
+        web developer
+        front end developer
+        backend developer
+        web design company
+        website developer
+        web dev
+        ui developer
+        front end web developer
+        front end back end
+        front end and back end
+        freelance web designer
+        junior web developer
+        web design near me
+        stack developer
+        website developer near me
+        website designing company
+        web developer near me
+        best website design 2021
+        google web developer
+        web programmer
+        web application developer
+        freelance website developer
+        html css and javascript for web developers
+        back end web developer
+        front end coding
+        web app developer
+        react js tutor
+        reactjs tutor
+        nextjs developr
+        nextjs tutor
+        mern stack developer
+        mern full form
+        mern developer
+        mern stack projects
+        mern stack course
+        mern stack development
+        full stack mern
+        best mern stack course
+        mern full stack
+        mern full stack developer
+        full stack mern developer
+        mern stack developer meaning
+        "
+        />
+        <meta name="author" content="John Doe" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
     <div className="bg-white " id ="contact">
       <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12">
@@ -58,5 +119,6 @@ export default function Footer() {
         </div>
       </div>
     </div>
+    </>
   )
 }
