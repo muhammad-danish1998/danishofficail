@@ -119,7 +119,7 @@ export default function Project() {
         mern stack developer meaning
         "
         />
-        <meta name="author" content="John Doe" />
+        <meta name="author" content="Muhammad Danish" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
     <div className="bg-white" id = "projects">

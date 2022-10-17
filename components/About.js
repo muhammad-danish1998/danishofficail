@@ -59,7 +59,7 @@ export default function About() {
         mern stack developer meaning
         "
         />
-        <meta name="author" content="John Doe" />
+        <meta name="author" content="Muhammad Danish" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <h1 className="lg:text-5xl text-4xl font-semibold my-10 text-center">About Me 👩</h1>

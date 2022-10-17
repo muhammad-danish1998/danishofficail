@@ -120,7 +120,7 @@ const people = [
         mern stack developer meaning
         "
         />
-        <meta name="author" content="John Doe" />
+        <meta name="author" content="Muhammad Danish" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <h1 className='lg:text-6xl text-4xl font-semibold my-10 text-center borderbottom '>What I Do? 👩‍💻</h1>
